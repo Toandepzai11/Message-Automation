@@ -1,0 +1,21 @@
+{
+  "name": "Message-Automation",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "check-types": "turbo run check-types",
+    "format-and-lint": "biome check .",
+    "format-and-lint:fix": "biome check . --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.8",
+    "turbo": "^2.10.9",
+    "typescript": "5.9.2"
+  },
+  "packageManager": "pnpm@11.21.0",
+  "engines": {
+    "node": ">=18"
+  }
+}
