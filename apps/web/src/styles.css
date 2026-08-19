@@ -1,0 +1,25 @@
+@import "@fontsource-variable/noto-sans-display/wdth.css";
+@import "@fontsource-variable/noto-sans-display/wdth-italic.css";
+@import "@fontsource-variable/jetbrains-mono/wght.css";
+@import "@fontsource-variable/jetbrains-mono/wght-italic.css";
+@import "tailwindcss";
+
+* {
+  scrollbar-gutter: stable;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: "JetBrains Mono", monospace;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+}

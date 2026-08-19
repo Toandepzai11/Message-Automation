@@ -39,7 +39,9 @@
       "!!**/*.gen.ts",
       "!!**/TestResults",
       "!!**/gen",
-      "vite.config.ts"
+      "!!**/public",
+      "vite.config.ts",
+      "*.html"
     ]
   },
   "javascript": {
@@ -66,5 +68,5 @@
         }
       }
     }
-  },
+  }
 }
