@@ -26,7 +26,7 @@ export interface UseColorModeReturn {
   toggleColorMode: () => void;
 }
 
-export function useColorMode(): UseColorModeReturn {
+function useColorMode(): UseColorModeReturn {
   const { resolvedTheme, setTheme, forcedTheme } = useTheme();
   const colorMode = forcedTheme || resolvedTheme;
   const toggleColorMode = () => {
